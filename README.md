@@ -56,8 +56,9 @@ python3 -m http.server 8000
 The concordance is many-to-many and GMAC republishes it every Q3. Percentile and
 concordance tables are kept as **editable data**, not hard-coded logic — edit
 `js/data/concordance.js` when a new GMAC table ships. The question bank in
-`js/data/questions.js` is representative official-style content; swap in / add
-more items there (same shape) to grow it.
+`js/data/questions.js` (currently 43 representative official-style items
+spanning all 20 question types) is editable content; add more items there
+(same shape) to grow it.
 
 ## Notes
 
